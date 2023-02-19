@@ -8,6 +8,7 @@
 - Built on ERC721 token using [OpenZeppelin](https://www.openzeppelin.com/)
 - Using Metamask users can connect their wallet to the platform.
 - To showcase different music styles via NFT creation
+- Used ipfs for metadata storage of nfts.
 
 ## Technology Stack & Tools
 
