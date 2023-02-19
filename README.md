@@ -4,8 +4,9 @@
 
 # Features
 
-- Implementation of NFT on a Musical Platform
-- Using Metamask, etherjs, Solidity to implement Musical-NFT
+- Implementation of NFT on a Musical Platform. Users can create their own decentralized music nfts.
+- Built on ERC721 token using [OpenZeppelin](https://www.openzeppelin.com/)
+- Using Metamask users can connect their wallet to the platform.
 - To showcase different music styles via NFT creation
 
 ## Technology Stack & Tools
