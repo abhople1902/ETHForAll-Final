@@ -1,6 +1,6 @@
 # MusicalNFT
 
-*A marktetplace for musical art in form of NFTs*
+*A decentralised music NFT marketplace where in one can generate a music as an nft , put it for sale on the marketplace or can buy the same*
 
 # Features
 
