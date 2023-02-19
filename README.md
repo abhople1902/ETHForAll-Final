@@ -4,9 +4,9 @@
 
 # Features
 
--
--
--
+- Implementation of NFT on a Musical Platform
+- Using Metamask, etherjs, Solidity to implement Musical-NFT
+- To showcase different music styles via NFT creation
 
 ## Technology Stack & Tools
 
