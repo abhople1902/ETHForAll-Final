@@ -56,12 +56,12 @@ $ npx hardhat node
 
 
 # Challenges Faced
--Setting up a new environment to work with blockchain concepts included installation of several dependencies.
--OpenZeppelin was something new for us and it required reading its documentation for getting what we needed out of it.
--Source code of some open source projects that worked on a similar framework were needed to be reffered.
--Integration of  Next.js (used for frontend) and Solidity contract (used in backend) posed a major challenge as we needed to go back and forth between learning and applying it to our project.
--Some hard to catch bugs were needed to be resolved during testing the project by connecting to a wallet via metamask.
--Finally, referring and learning helped us overcome the above difficulties.
+- Setting up a new environment to work with blockchain concepts included installation of several dependencies.
+- OpenZeppelin was something new for us and it required reading its documentation for getting what we needed out of it.
+- Source code of some open source projects that worked on a similar framework were needed to be reffered.
+- Integration of  Next.js (used for frontend) and Solidity contract (used in backend) posed a major challenge as we needed to go back and forth between learning and applying it to our project.
+- Some hard to catch bugs were needed to be resolved during testing the project by connecting to a wallet via metamask.
+- Finally, referring and learning helped us overcome the above difficulties.
 
 License
 ----
