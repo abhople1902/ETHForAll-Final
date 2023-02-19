@@ -56,10 +56,10 @@ $ npx hardhat node
 
 
 # Challenges Faced
-
--
--
--
+--Setting up a new environment to work with blockchain concepts included installation of several dependencies.
+-We also referred some open source projects that used similar framework.
+-Integration of our Next.js (used for frontend) and Solidity contract (used in backend) was a major challenge to us.
+-Finally, referring and learning helped us overcome the above difficulties.
 
 License
 ----
