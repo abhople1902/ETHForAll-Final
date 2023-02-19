@@ -1,4 +1,12 @@
-# NFT Marketplace
+# MusicalNFT
+
+*A marktetplace for musical art in form of NFTs*
+
+# Features
+
+-
+-
+-
 
 ## Technology Stack & Tools
 
@@ -41,6 +49,15 @@ $ npx hardhat node
 
 ### 7. Launch Frontend
 `$ npm run start`
+
+## Local Demo
+
+
+# Challenges Faced
+
+-
+-
+-
 
 License
 ----
