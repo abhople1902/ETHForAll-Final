@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Aspire;
+  src: url(Aspire.ttf);
+}
+
+
+
+html{
+  background-color: #121314;
+}
+
+@media (max-width:600px) {
+  html{
+    width: fit-content;
+  }
+}
+
+
+.aspirefont{
+  font-family: Aspire;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-stretch: expanded;
+}
+
+
+.interfont{
+  font-family: 'Inter', sans-serif;
+}
+
+.about-bg{
+    background: rgb(191,23,194);
+background: linear-gradient(132deg, rgba(191,23,194,1) 0%, rgba(3,62,158,1) 110%);
+}
+@media (max-width: 767px) {
+    .navicon {
+      width: 1.125em;
+      height: .125em;
+    }
+  
+    .navicon::before,
+    .navicon::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .2s ease-out;
+      content: '';
+      background: #3D4852;
+    }
+  
+    .navicon::before {
+      top: 5px;
+    }
+  
+    .navicon::after {
+      top: -5px;
+    }
+  
+    .menu-btn:not(:checked) ~ .menu {
+      display: none;
+    }
+  
+    .menu-btn:checked ~ .menu {
+      display: block;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before {
+      transform: rotate(-45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      transform: rotate(45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before,
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      top: 0;
+    }
+  }
+  
+  
+  
+  .shadow-box {
+    color:#fff;
+    text-align:center;
+    box-shadow: 10px 0px 70px #717BF9, -15px 0px 70px #F47C03;
+    /* box-shadow: 20px 5px 30px #717BF9, 0px 5px 30px #D9009C, -20px 5px 30px #F47C03; */
+    /* background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%); */
+   }
+   .shadow-box-sm {
+    color:#fff;
+    text-align:center;
+    box-shadow: 10px 0px 15px #717BF9, -10px 0px 15px #F47C03;
+    /* box-shadow: 20px 5px 30px #717BF9, 0px 5px 30px #D9009C, -20px 5px 30px #F47C03; */
+    /* background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%); */
+   }
+
+   

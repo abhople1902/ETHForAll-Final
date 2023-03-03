@@ -49,6 +49,7 @@ const Home = ({ marketplace, nft }) => {
   )
   return (
     <div className="flex justify-center">
+      
       {items.length > 0 ?
         <div className="px-5 container">
           <Row xs={1} md={2} lg={4} className="g-4 py-5">
