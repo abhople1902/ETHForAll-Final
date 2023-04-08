@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
         
-        <nav className="nav flex flex-wrap items-center justify-between lg:px-36 px-3 mt-8">
+  <nav className="nav flex flex-wrap items-center justify-between lg:px-36 px-3 mt-8">
   <div className="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
     {/* <svg className="fill-current h-8 mr-2 w-8" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" clip-rule="evenodd" viewBox="0 0 716 895">
       <path d="M357.776 0l357.77 178.885v536.657l-357.77 178.89L0 715.542V178.885"></path>
